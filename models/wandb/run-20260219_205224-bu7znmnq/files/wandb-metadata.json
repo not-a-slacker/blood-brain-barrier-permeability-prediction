@@ -1,0 +1,17 @@
+{
+  "os": "Linux-5.15.0-168-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2026-02-19T15:22:24.001866Z",
+  "program": "/home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/ann.ipynb",
+  "codePath": "models/ann.ipynb",
+  "codePathLocal": "ann.ipynb",
+  "git": {
+    "remote": "https://github.com/not-a-slacker/Blood-Brain-Barrier-Permeability-Prediction.git",
+    "commit": "86fbb8d559cd4dc05fb70750b8038940c798d4ea"
+  },
+  "email": "bhuvan.kapur1@gmail.com",
+  "root": "/home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models",
+  "host": "gnode019",
+  "executable": "/usr/bin/python3",
+  "writerId": "dh12o0wdblte3unhzl70371mwmcepqk3"
+}

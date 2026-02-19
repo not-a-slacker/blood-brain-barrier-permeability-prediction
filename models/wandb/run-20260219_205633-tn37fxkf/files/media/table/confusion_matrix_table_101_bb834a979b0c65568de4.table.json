@@ -1,0 +1,1 @@
+{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["Non-permeable", "Non-permeable", 502.0], ["Non-permeable", "Permeable", 68.0], ["Permeable", "Non-permeable", 99.0], ["Permeable", "Permeable", 892.0]]}

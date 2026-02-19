@@ -1,0 +1,12 @@
+{"time":"2026-02-19T20:53:21.849881653+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-19T20:53:22.298689382+05:30","level":"INFO","msg":"stream: created new stream","id":"irjnwgb7"}
+{"time":"2026-02-19T20:53:22.298761312+05:30","level":"INFO","msg":"stream: started","id":"irjnwgb7"}
+{"time":"2026-02-19T20:53:22.298833136+05:30","level":"INFO","msg":"writer: started","stream_id":"irjnwgb7"}
+{"time":"2026-02-19T20:53:22.298854483+05:30","level":"INFO","msg":"sender: started","stream_id":"irjnwgb7"}
+{"time":"2026-02-19T20:53:22.298941103+05:30","level":"INFO","msg":"handler: started","stream_id":"irjnwgb7"}
+{"time":"2026-02-19T20:54:09.613937033+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-irjnwgb7-confusion_matrix_table","runtime_seconds":1.249223824},{"desc":"uploading wandb-summary.json","runtime_seconds":0.638581949,"progress":"1.1KB/1.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.264525923,"progress":"4.3KB/4.3KB"}],"total_operations":3}}
+{"time":"2026-02-19T20:54:16.827672613+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-19T20:54:17.324377941+05:30","level":"INFO","msg":"stream: closing","id":"irjnwgb7"}
+{"time":"2026-02-19T20:54:17.324423385+05:30","level":"INFO","msg":"handler: closed","stream_id":"irjnwgb7"}
+{"time":"2026-02-19T20:54:17.325071831+05:30","level":"INFO","msg":"sender: closed","stream_id":"irjnwgb7"}
+{"time":"2026-02-19T20:54:17.325111984+05:30","level":"INFO","msg":"stream: closed","id":"irjnwgb7"}

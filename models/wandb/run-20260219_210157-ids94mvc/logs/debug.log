@@ -1,0 +1,35 @@
+2026-02-19 21:01:57,551 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/run-20260219_210157-ids94mvc/logs/debug.log
+2026-02-19 21:01:57,551 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/run-20260219_210157-ids94mvc/logs/debug-internal.log
+2026-02-19 21:01:57,551 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():830] calling init triggers
+2026-02-19 21:01:57,551 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():835] wandb.init called with sweep_config: {'batch_size': 64, 'dropout': 0.4, 'learning_rate': 0.0010241392449982796, 'neurons': 128, 'num_epochs': 100, 'num_layers': 4}
+config: {'batch_size': 64, 'dropout': 0.4, 'learning_rate': 0.0010241392449982796, 'neurons': 128, 'num_epochs': 100, 'num_layers': 4, '_wandb': {}}
+2026-02-19 21:01:57,553 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_finish():2260] finishing run bhuvan-kapur1-iiith/bbb-permeability-ann/ids94mvc
+2026-02-19 21:01:57,555 INFO    Thread-73 (_run_job):3829759 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2026-02-19 21:01:57,555 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2026-02-19 21:01:57,555 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2026-02-19 21:01:57,556 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_restore():2441] restore
+2026-02-19 21:01:57,556 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_restore():2447] restore done
+2026-02-19 21:01:59,422 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_footer_history_summary_info():3895] rendering history
+2026-02-19 21:01:59,423 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_footer_history_summary_info():3927] rendering summary
+2026-02-19 21:01:59,423 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_footer_sync_info():3856] logging synced files
+2026-02-19 21:01:59,429 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():871] starting backend
+2026-02-19 21:01:59,429 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():874] sending inform_init request
+2026-02-19 21:01:59,431 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():882] backend started and connected
+2026-02-19 21:01:59,433 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_config_callback():1380] config_cb None None {'batch_size': 64, 'dropout': 0.4, 'learning_rate': 0.0010241392449982796, 'neurons': 128, 'num_epochs': 100, 'num_layers': 4}
+2026-02-19 21:01:59,435 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2026-02-19 21:01:59,439 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():953] updated telemetry
+2026-02-19 21:01:59,450 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2026-02-19 21:02:00,337 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():1029] starting run threads in backend
+2026-02-19 21:02:00,661 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_console_start():2494] atexit reg
+2026-02-19 21:02:00,661 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2026-02-19 21:02:00,661 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2026-02-19 21:02:00,661 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_redirect():2434] Redirects installed.
+2026-02-19 21:02:00,662 INFO    Thread-73 (_run_job):3829759 [wandb_init.py:init():1075] run started, returning control to user process
+2026-02-19 21:02:52,002 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_config_callback():1380] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2026-02-19 21:02:53,191 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_finish():2260] finishing run bhuvan-kapur1-iiith/bbb-permeability-ann/ids94mvc
+2026-02-19 21:02:53,191 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2026-02-19 21:02:53,191 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_restore():2441] restore
+2026-02-19 21:02:53,191 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_restore():2447] restore done
+2026-02-19 21:02:56,376 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_footer_history_summary_info():3895] rendering history
+2026-02-19 21:02:56,378 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_footer_history_summary_info():3927] rendering summary
+2026-02-19 21:02:56,380 INFO    Thread-73 (_run_job):3829759 [wandb_run.py:_footer_sync_info():3856] logging synced files

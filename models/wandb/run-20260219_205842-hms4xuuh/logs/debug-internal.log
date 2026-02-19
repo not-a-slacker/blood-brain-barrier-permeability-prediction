@@ -1,0 +1,12 @@
+{"time":"2026-02-19T20:58:44.171598686+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-19T20:58:44.645970406+05:30","level":"INFO","msg":"stream: created new stream","id":"hms4xuuh"}
+{"time":"2026-02-19T20:58:44.646034833+05:30","level":"INFO","msg":"stream: started","id":"hms4xuuh"}
+{"time":"2026-02-19T20:58:44.64610704+05:30","level":"INFO","msg":"writer: started","stream_id":"hms4xuuh"}
+{"time":"2026-02-19T20:58:44.64614753+05:30","level":"INFO","msg":"sender: started","stream_id":"hms4xuuh"}
+{"time":"2026-02-19T20:58:44.646163324+05:30","level":"INFO","msg":"handler: started","stream_id":"hms4xuuh"}
+{"time":"2026-02-19T20:59:31.066654897+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hms4xuuh-confusion_matrix_table","runtime_seconds":1.408811233},{"desc":"uploading history steps 75-101, summary, console lines 9-14","runtime_seconds":0.35138078},{"desc":"uploading config.yaml","runtime_seconds":0.223054554,"progress":"4.3KB/4.3KB"}],"total_operations":3}}
+{"time":"2026-02-19T20:59:33.048445123+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-19T20:59:33.567188385+05:30","level":"INFO","msg":"stream: closing","id":"hms4xuuh"}
+{"time":"2026-02-19T20:59:33.567227372+05:30","level":"INFO","msg":"handler: closed","stream_id":"hms4xuuh"}
+{"time":"2026-02-19T20:59:33.567985838+05:30","level":"INFO","msg":"sender: closed","stream_id":"hms4xuuh"}
+{"time":"2026-02-19T20:59:33.568020171+05:30","level":"INFO","msg":"stream: closed","id":"hms4xuuh"}

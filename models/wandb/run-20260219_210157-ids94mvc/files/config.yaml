@@ -1,0 +1,119 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            851jfnp0stwpk5wqbn6n5axjug4chnnz:
+                codePath: models/ann.ipynb
+                codePathLocal: ann.ipynb
+                cpu_count: 20
+                cpu_count_logical: 40
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "145435619328"
+                        used: "86731972608"
+                email: bhuvan.kapur1@gmail.com
+                executable: /usr/bin/python3
+                git:
+                    commit: 86fbb8d559cd4dc05fb70750b8038940c798d4ea
+                    remote: https://github.com/not-a-slacker/Blood-Brain-Barrier-Permeability-Prediction.git
+                gpu: NVIDIA GeForce GTX 1080 Ti
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-e092fa33-8e21-7639-b633-6b0d03f37e6c
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-7ffcfce0-6602-b4ec-c66b-d99da65eadf2
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-3af34568-49bf-66cd-482e-b0dbd4e5784a
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-bb1a1c97-9788-1cd5-df43-c38f8051b8e1
+                host: gnode019
+                memory:
+                    total: "135032975360"
+                os: Linux-5.15.0-168-generic-x86_64-with-glibc2.35
+                program: /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/ann.ipynb
+                python: CPython 3.10.12
+                root: /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models
+                slurm:
+                    job_id: "2580215"
+                startedAt: "2026-02-19T15:31:57.540457Z"
+                writerId: 851jfnp0stwpk5wqbn6n5axjug4chnnz
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 14
+                - 16
+            "4": 3.10.12
+            "5": 0.21.1
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.21.1
+            "13": linux-x86_64
+        visualize:
+            confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+batch_size:
+    value: 64
+dropout:
+    value: 0.4
+learning_rate:
+    value: 0.0010241392449982796
+neurons:
+    value: 128
+num_epochs:
+    value: 100
+num_layers:
+    value: 4

@@ -1,0 +1,12 @@
+{"time":"2026-02-19T20:51:33.401474996+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-19T20:51:33.869018544+05:30","level":"INFO","msg":"stream: created new stream","id":"ntbeiiqa"}
+{"time":"2026-02-19T20:51:33.869096368+05:30","level":"INFO","msg":"stream: started","id":"ntbeiiqa"}
+{"time":"2026-02-19T20:51:33.869170875+05:30","level":"INFO","msg":"writer: started","stream_id":"ntbeiiqa"}
+{"time":"2026-02-19T20:51:33.869212682+05:30","level":"INFO","msg":"sender: started","stream_id":"ntbeiiqa"}
+{"time":"2026-02-19T20:51:33.869235505+05:30","level":"INFO","msg":"handler: started","stream_id":"ntbeiiqa"}
+{"time":"2026-02-19T20:52:17.915723297+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ntbeiiqa-confusion_matrix_table","runtime_seconds":1.442108526},{"desc":"uploading wandb-summary.json","runtime_seconds":0.668856863,"progress":"1.1KB/1.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.232161931,"progress":"4.3KB/4.3KB"}],"total_operations":3}}
+{"time":"2026-02-19T20:52:19.883112539+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-19T20:52:20.327783193+05:30","level":"INFO","msg":"stream: closing","id":"ntbeiiqa"}
+{"time":"2026-02-19T20:52:20.32782024+05:30","level":"INFO","msg":"handler: closed","stream_id":"ntbeiiqa"}
+{"time":"2026-02-19T20:52:20.328825487+05:30","level":"INFO","msg":"sender: closed","stream_id":"ntbeiiqa"}
+{"time":"2026-02-19T20:52:20.328878797+05:30","level":"INFO","msg":"stream: closed","id":"ntbeiiqa"}

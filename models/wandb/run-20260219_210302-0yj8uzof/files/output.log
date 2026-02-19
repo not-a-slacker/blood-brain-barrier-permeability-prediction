@@ -1,0 +1,15 @@
+
+Training with config: {'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.007324195091502035, 'neurons': 128, 'num_epochs': 100, 'num_layers': 3}
+Epoch [10/100] - Train Loss: 0.3280, Train Acc: 0.8603 - Val Loss: 0.3002, Val Acc: 0.8583, Time for epoch: 1.90 seconds
+Epoch [20/100] - Train Loss: 0.2744, Train Acc: 0.8839 - Val Loss: 0.3062, Val Acc: 0.8711, Time for epoch: 1.85 seconds
+Epoch [30/100] - Train Loss: 0.2451, Train Acc: 0.8983 - Val Loss: 0.2941, Val Acc: 0.8719, Time for epoch: 1.94 seconds
+Epoch [40/100] - Train Loss: 0.2258, Train Acc: 0.9069 - Val Loss: 0.3034, Val Acc: 0.8799, Time for epoch: 1.87 seconds
+Epoch [50/100] - Train Loss: 0.2292, Train Acc: 0.9121 - Val Loss: 0.3613, Val Acc: 0.8655, Time for epoch: 1.96 seconds
+Epoch [60/100] - Train Loss: 0.1999, Train Acc: 0.9231 - Val Loss: 0.3290, Val Acc: 0.8783, Time for epoch: 1.79 seconds
+Epoch [70/100] - Train Loss: 0.1828, Train Acc: 0.9283 - Val Loss: 0.3026, Val Acc: 0.8863, Time for epoch: 1.80 seconds
+Epoch [80/100] - Train Loss: 0.2043, Train Acc: 0.9251 - Val Loss: 0.3342, Val Acc: 0.8815, Time for epoch: 1.82 seconds
+Epoch [90/100] - Train Loss: 0.2152, Train Acc: 0.9253 - Val Loss: 0.3189, Val Acc: 0.8831, Time for epoch: 1.90 seconds
+Epoch [100/100] - Train Loss: 0.1929, Train Acc: 0.9341 - Val Loss: 0.3656, Val Acc: 0.8943, Time for epoch: 1.91 seconds
+Test Accuracy: 0.8917
+Test F1-Score: 0.9165
+Test ROC-AUC: 0.9465

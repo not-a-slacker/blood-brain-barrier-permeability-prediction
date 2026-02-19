@@ -1,0 +1,38 @@
+2026-02-19 20:52:24,016 INFO    Thread-46 (_run_job):3829759 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2026-02-19 20:52:24,016 INFO    Thread-46 (_run_job):3829759 [wandb_setup.py:_flush():80] Configure stats pid to 3829759
+2026-02-19 20:52:24,016 INFO    Thread-46 (_run_job):3829759 [wandb_setup.py:_flush():80] Loading settings from /home2/bhuvan.kapur/.config/wandb/settings
+2026-02-19 20:52:24,017 INFO    Thread-46 (_run_job):3829759 [wandb_setup.py:_flush():80] Loading settings from /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/settings
+2026-02-19 20:52:24,017 INFO    Thread-46 (_run_job):3829759 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2026-02-19 20:52:24,017 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/run-20260219_205224-bu7znmnq/logs/debug.log
+2026-02-19 20:52:24,017 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/run-20260219_205224-bu7znmnq/logs/debug-internal.log
+2026-02-19 20:52:24,017 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f5e5426b100>
+2026-02-19 20:52:24,018 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():830] calling init triggers
+2026-02-19 20:52:24,018 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():835] wandb.init called with sweep_config: {'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0010273637466906094, 'neurons': 256, 'num_epochs': 100, 'num_layers': 3}
+config: {'_wandb': {}}
+2026-02-19 20:52:24,018 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():871] starting backend
+2026-02-19 20:52:24,234 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():874] sending inform_init request
+2026-02-19 20:52:24,237 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():882] backend started and connected
+2026-02-19 20:52:24,238 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_config_callback():1380] config_cb None None {'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0010273637466906094, 'neurons': 256, 'num_epochs': 100, 'num_layers': 3}
+2026-02-19 20:52:24,245 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2026-02-19 20:52:24,247 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():953] updated telemetry
+2026-02-19 20:52:24,260 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2026-02-19 20:52:25,268 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():1029] starting run threads in backend
+2026-02-19 20:52:25,567 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_console_start():2494] atexit reg
+2026-02-19 20:52:25,567 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2026-02-19 20:52:25,567 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2026-02-19 20:52:25,567 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_redirect():2434] Redirects installed.
+2026-02-19 20:52:25,568 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():1075] run started, returning control to user process
+2026-02-19 20:52:25,580 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/run-20260219_205225-bu7znmnq/logs/debug.log
+2026-02-19 20:52:25,580 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home2/bhuvan.kapur/Blood-Brain-Barrier-Permeability-Prediction/models/wandb/run-20260219_205225-bu7znmnq/logs/debug-internal.log
+2026-02-19 20:52:25,580 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():830] calling init triggers
+2026-02-19 20:52:25,581 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:init():835] wandb.init called with sweep_config: {'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0010273637466906094, 'neurons': 256, 'num_epochs': 100, 'num_layers': 3}
+config: {'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0010273637466906094, 'neurons': 256, 'num_epochs': 100, 'num_layers': 3, '_wandb': {}}
+2026-02-19 20:52:25,582 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_finish():2260] finishing run bhuvan-kapur1-iiith/bbb-permeability-ann/bu7znmnq
+2026-02-19 20:52:25,584 INFO    Thread-46 (_run_job):3829759 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2026-02-19 20:52:25,584 INFO    Thread-46 (_run_job):3829759 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2026-02-19 20:52:25,585 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2026-02-19 20:52:25,585 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_restore():2441] restore
+2026-02-19 20:52:25,585 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_restore():2447] restore done
+2026-02-19 20:52:28,013 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_footer_history_summary_info():3895] rendering history
+2026-02-19 20:52:28,014 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_footer_history_summary_info():3927] rendering summary
+2026-02-19 20:52:28,015 INFO    Thread-46 (_run_job):3829759 [wandb_run.py:_footer_sync_info():3856] logging synced files

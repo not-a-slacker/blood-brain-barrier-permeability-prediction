@@ -1,6 +1,11 @@
 # This file performs basic analysis of datasets used in our task - B3DB and BBBP.
 
 import pandas as pd
+# to ensure molecular descriptor table is not truncated in report
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.width', None)
+pd.set_option('display.max_colwidth', None)
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -271,7 +276,9 @@ class BBBDatasetAnalyzer:
             
             if self.descriptors is not None:
                 f.write("Molecular Descriptors Summary:\n")
-                f.write(str(self.descriptors.describe()) + "\n\n")
+                desc = self.descriptors.describe()
+
+                f.write(desc.to_string() + "\n\n")
             
             
         

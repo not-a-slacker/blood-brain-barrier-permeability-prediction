@@ -1,0 +1,5 @@
+ML Notebook : 
+- Final test score - compute after training best model using train + val
+
+ANN Notebook :
+- Use macro average for f1-score

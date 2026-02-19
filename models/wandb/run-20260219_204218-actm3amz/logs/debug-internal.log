@@ -1,0 +1,12 @@
+{"time":"2026-02-19T20:42:20.817348715+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-19T20:42:21.28109734+05:30","level":"INFO","msg":"stream: created new stream","id":"actm3amz"}
+{"time":"2026-02-19T20:42:21.281166257+05:30","level":"INFO","msg":"stream: started","id":"actm3amz"}
+{"time":"2026-02-19T20:42:21.281236907+05:30","level":"INFO","msg":"writer: started","stream_id":"actm3amz"}
+{"time":"2026-02-19T20:42:21.281280734+05:30","level":"INFO","msg":"sender: started","stream_id":"actm3amz"}
+{"time":"2026-02-19T20:42:21.281297134+05:30","level":"INFO","msg":"handler: started","stream_id":"actm3amz"}
+{"time":"2026-02-19T20:42:23.597173184+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":0.746229257,"progress":"1.8KB/1.8KB"},{"desc":"uploading output.log","runtime_seconds":0.646497351,"progress":"1.0KB/1.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.646485385,"progress":"37B/37B"},{"desc":"uploading config.yaml","runtime_seconds":0.186943771,"progress":"3.0KB/3.0KB"}],"total_operations":4}}
+{"time":"2026-02-19T20:42:24.35776138+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-19T20:42:24.759392057+05:30","level":"INFO","msg":"stream: closing","id":"actm3amz"}
+{"time":"2026-02-19T20:42:24.759436977+05:30","level":"INFO","msg":"handler: closed","stream_id":"actm3amz"}
+{"time":"2026-02-19T20:42:24.76037352+05:30","level":"INFO","msg":"sender: closed","stream_id":"actm3amz"}
+{"time":"2026-02-19T20:42:24.760401082+05:30","level":"INFO","msg":"stream: closed","id":"actm3amz"}

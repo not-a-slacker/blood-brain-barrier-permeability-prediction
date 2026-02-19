@@ -1,0 +1,12 @@
+{"time":"2026-02-19T21:01:05.506259735+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-19T21:01:05.961213693+05:30","level":"INFO","msg":"stream: created new stream","id":"oxref2qm"}
+{"time":"2026-02-19T21:01:05.961274507+05:30","level":"INFO","msg":"stream: started","id":"oxref2qm"}
+{"time":"2026-02-19T21:01:05.961358971+05:30","level":"INFO","msg":"writer: started","stream_id":"oxref2qm"}
+{"time":"2026-02-19T21:01:05.961383411+05:30","level":"INFO","msg":"sender: started","stream_id":"oxref2qm"}
+{"time":"2026-02-19T21:01:05.961392094+05:30","level":"INFO","msg":"handler: started","stream_id":"oxref2qm"}
+{"time":"2026-02-19T21:01:49.4844848+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-oxref2qm-confusion_matrix_table","runtime_seconds":1.416712577},{"desc":"uploading config.yaml","runtime_seconds":0.330957346,"progress":"4.3KB/4.3KB"}],"total_operations":2}}
+{"time":"2026-02-19T21:01:52.860961239+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-19T21:01:53.275630983+05:30","level":"INFO","msg":"stream: closing","id":"oxref2qm"}
+{"time":"2026-02-19T21:01:53.275675407+05:30","level":"INFO","msg":"handler: closed","stream_id":"oxref2qm"}
+{"time":"2026-02-19T21:01:53.27659138+05:30","level":"INFO","msg":"sender: closed","stream_id":"oxref2qm"}
+{"time":"2026-02-19T21:01:53.276672957+05:30","level":"INFO","msg":"stream: closed","id":"oxref2qm"}

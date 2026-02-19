@@ -1,0 +1,14 @@
+wandb_version: 1
+
+batch_size:
+  value: 32
+dropout:
+  value: 0.2
+learning_rate:
+  value: 0.008558277170670144
+neurons:
+  value: 512
+num_epochs:
+  value: 100
+num_layers:
+  value: 4

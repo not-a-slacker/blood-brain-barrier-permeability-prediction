@@ -1,0 +1,12 @@
+{"time":"2026-02-19T21:06:22.109679503+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-19T21:06:22.576745189+05:30","level":"INFO","msg":"stream: created new stream","id":"jc7u39uc"}
+{"time":"2026-02-19T21:06:22.57680648+05:30","level":"INFO","msg":"stream: started","id":"jc7u39uc"}
+{"time":"2026-02-19T21:06:22.57688015+05:30","level":"INFO","msg":"writer: started","stream_id":"jc7u39uc"}
+{"time":"2026-02-19T21:06:22.57691633+05:30","level":"INFO","msg":"sender: started","stream_id":"jc7u39uc"}
+{"time":"2026-02-19T21:06:22.576957513+05:30","level":"INFO","msg":"handler: started","stream_id":"jc7u39uc"}
+{"time":"2026-02-19T21:07:43.722120899+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jc7u39uc-confusion_matrix_table","runtime_seconds":1.414610395},{"desc":"uploading config.yaml","runtime_seconds":0.278754104,"progress":"4.3KB/4.3KB"}],"total_operations":2}}
+{"time":"2026-02-19T21:07:45.465031038+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-19T21:07:46.028247073+05:30","level":"INFO","msg":"stream: closing","id":"jc7u39uc"}
+{"time":"2026-02-19T21:07:46.028286677+05:30","level":"INFO","msg":"handler: closed","stream_id":"jc7u39uc"}
+{"time":"2026-02-19T21:07:46.028970949+05:30","level":"INFO","msg":"sender: closed","stream_id":"jc7u39uc"}
+{"time":"2026-02-19T21:07:46.028996336+05:30","level":"INFO","msg":"stream: closed","id":"jc7u39uc"}
