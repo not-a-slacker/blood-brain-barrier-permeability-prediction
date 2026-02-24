@@ -1,0 +1,12 @@
+{"time":"2026-02-24T03:50:53.572339987+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-24T03:50:54.526992738+05:30","level":"INFO","msg":"stream: created new stream","id":"kmioozar"}
+{"time":"2026-02-24T03:50:54.527111492+05:30","level":"INFO","msg":"stream: started","id":"kmioozar"}
+{"time":"2026-02-24T03:50:54.527204579+05:30","level":"INFO","msg":"writer: started","stream_id":"kmioozar"}
+{"time":"2026-02-24T03:50:54.527210912+05:30","level":"INFO","msg":"handler: started","stream_id":"kmioozar"}
+{"time":"2026-02-24T03:50:54.527260026+05:30","level":"INFO","msg":"sender: started","stream_id":"kmioozar"}
+{"time":"2026-02-24T03:51:49.696190185+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":1.008838019},{"desc":"uploading output.log","runtime_seconds":0.625365409,"progress":"169B/169B"}],"total_operations":2}}
+{"time":"2026-02-24T03:51:51.535672396+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T03:51:52.055683928+05:30","level":"INFO","msg":"stream: closing","id":"kmioozar"}
+{"time":"2026-02-24T03:51:52.055736515+05:30","level":"INFO","msg":"handler: closed","stream_id":"kmioozar"}
+{"time":"2026-02-24T03:51:52.056494895+05:30","level":"INFO","msg":"sender: closed","stream_id":"kmioozar"}
+{"time":"2026-02-24T03:51:52.056528832+05:30","level":"INFO","msg":"stream: closed","id":"kmioozar"}

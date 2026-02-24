@@ -1,0 +1,21 @@
+Converted 7805 molecules; skipped 2 invalid SMILES.
+Traceback (most recent call last):
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 297, in _run_job
+    self._function()
+  File "/tmp/ipykernel_1469224/2152410193.py", line 44, in sweep_train
+    train_loss = train_epoch(model, trl, optimizer, criterion, DEVICE)
+  File "/tmp/ipykernel_1469224/3998082414.py", line 5, in train_epoch
+    batch = batch.to(device)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/data/data.py", line 363, in to
+    return self.apply(
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/data/data.py", line 343, in apply
+    store.apply(func, *args)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/data/storage.py", line 201, in apply
+    self[key] = recursive_apply(value, func)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/data/storage.py", line 905, in recursive_apply
+    return func(data)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/data/data.py", line 364, in <lambda>
+    lambda x: x.to(device=device, non_blocking=non_blocking), *args)
+Exception
+
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

@@ -1,0 +1,12 @@
+{"time":"2026-02-24T03:51:58.149727549+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2026-02-24T03:52:03.629337844+05:30","level":"INFO","msg":"stream: created new stream","id":"vro18krk"}
+{"time":"2026-02-24T03:52:03.629457008+05:30","level":"INFO","msg":"stream: started","id":"vro18krk"}
+{"time":"2026-02-24T03:52:03.629518751+05:30","level":"INFO","msg":"writer: started","stream_id":"vro18krk"}
+{"time":"2026-02-24T03:52:03.629534281+05:30","level":"INFO","msg":"handler: started","stream_id":"vro18krk"}
+{"time":"2026-02-24T03:52:03.629604955+05:30","level":"INFO","msg":"sender: started","stream_id":"vro18krk"}
+{"time":"2026-02-24T03:53:09.518785455+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.657114424,"progress":"169B/169B"},{"desc":"uploading config.yaml","runtime_seconds":0.261803966,"progress":"3.1KB/3.1KB"}],"total_operations":2}}
+{"time":"2026-02-24T03:53:10.263516083+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-24T03:53:10.72310652+05:30","level":"INFO","msg":"stream: closing","id":"vro18krk"}
+{"time":"2026-02-24T03:53:10.72316062+05:30","level":"INFO","msg":"handler: closed","stream_id":"vro18krk"}
+{"time":"2026-02-24T03:53:10.72381215+05:30","level":"INFO","msg":"sender: closed","stream_id":"vro18krk"}
+{"time":"2026-02-24T03:53:10.72384726+05:30","level":"INFO","msg":"stream: closed","id":"vro18krk"}

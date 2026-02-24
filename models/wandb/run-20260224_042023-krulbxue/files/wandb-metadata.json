@@ -1,0 +1,64 @@
+{
+  "os": "Linux-5.15.0-160-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2026-02-23T22:50:23.182574Z",
+  "program": "/home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models/gcn.ipynb",
+  "codePath": "models/gcn.ipynb",
+  "codePathLocal": "gcn.ipynb",
+  "git": {
+    "remote": "https://github.com/not-a-slacker/blood-brain-barrier-permeability-prediction.git",
+    "commit": "e5f438db65cf513b2d3fe145f1dfc4cc2cfd163f"
+  },
+  "email": "bhuvan.kapur1@gmail.com",
+  "root": "/home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models",
+  "host": "gnode033",
+  "executable": "/bin/python3",
+  "cpu_count": 20,
+  "cpu_count_logical": 40,
+  "gpu": "NVIDIA GeForce GTX 1080 Ti",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "145435619328",
+      "used": "87057911808"
+    }
+  },
+  "memory": {
+    "total": "135032979456"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 3584,
+      "architecture": "Pascal",
+      "uuid": "GPU-698187e5-81cd-ac3b-7317-04288a30dde6"
+    },
+    {
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 3584,
+      "architecture": "Pascal",
+      "uuid": "GPU-e75fd01f-7fe7-3ea6-607c-e82f5ef9146f"
+    },
+    {
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 3584,
+      "architecture": "Pascal",
+      "uuid": "GPU-f1ba38c5-9cfe-239d-4b7a-bbb2e6327484"
+    },
+    {
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 3584,
+      "architecture": "Pascal",
+      "uuid": "GPU-e1a3a2de-bf34-762d-c053-03f0d49904ed"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "slurm": {
+    "job_id": "2582137"
+  },
+  "writerId": "bakdq323pdykopi7hcb9qvjlmia04fdr"
+}

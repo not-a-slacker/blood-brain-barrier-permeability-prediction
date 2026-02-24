@@ -1,0 +1,93 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            k9jo2na9pe81sbhyl7yxmnpa2uwtqbgk:
+                codePath: models/gcn.ipynb
+                codePathLocal: gcn.ipynb
+                cpu_count: 20
+                cpu_count_logical: 40
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "145435619328"
+                        used: "87109914624"
+                email: bhuvan.kapur1@gmail.com
+                executable: /bin/python3
+                git:
+                    commit: e5f438db65cf513b2d3fe145f1dfc4cc2cfd163f
+                    remote: https://github.com/not-a-slacker/blood-brain-barrier-permeability-prediction.git
+                gpu: NVIDIA GeForce GTX 1080 Ti
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-698187e5-81cd-ac3b-7317-04288a30dde6
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-e75fd01f-7fe7-3ea6-607c-e82f5ef9146f
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-f1ba38c5-9cfe-239d-4b7a-bbb2e6327484
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-e1a3a2de-bf34-762d-c053-03f0d49904ed
+                host: gnode033
+                memory:
+                    total: "135032979456"
+                os: Linux-5.15.0-160-generic-x86_64-with-glibc2.35
+                program: /home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models/gcn.ipynb
+                python: CPython 3.10.12
+                root: /home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models
+                slurm:
+                    job_id: "2582137"
+                startedAt: "2026-02-23T23:13:11.352117Z"
+                writerId: k9jo2na9pe81sbhyl7yxmnpa2uwtqbgk
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 77
+            "2":
+                - 1
+                - 5
+                - 53
+                - 77
+            "3":
+                - 2
+                - 14
+            "4": 3.10.12
+            "5": 0.21.1
+            "8":
+                - 1
+            "12": 0.21.1
+            "13": linux-x86_64
+batch_size:
+    value: 64
+dropout:
+    value: 0.3
+epochs:
+    value: 50
+hidden_dim:
+    value: 256
+learning_rate:
+    value: 0.00036456570210061817
+num_layers:
+    value: 4
+readout:
+    value: max
+use_bond_features:
+    value: true
+weight_decay:
+    value: 0.0001

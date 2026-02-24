@@ -1,0 +1,29 @@
+Converted 7805 molecules; skipped 2 invalid SMILES.
+Traceback (most recent call last):
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 297, in _run_job
+    self._function()
+  File "/tmp/ipykernel_1449146/1578839072.py", line 43, in sweep_train
+    train_loss = train_epoch(model, trl, optimizer, criterion, DEVICE)
+  File "/tmp/ipykernel_1449146/3998082414.py", line 7, in train_epoch
+    logits, _ = model(batch.x, batch.edge_index, batch.batch)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/tmp/ipykernel_1449146/256330943.py", line 57, in forward
+    x = conv(x, edge_index)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/nn/conv/gcn_conv.py", line 241, in forward
+    edge_index, edge_weight = gcn_norm(  # yapf: disable
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/nn/conv/gcn_conv.py", line 99, in gcn_norm
+    edge_index, edge_weight = add_remaining_self_loops(
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch_geometric/utils/loop.py", line 652, in add_remaining_self_loops
+    if not torch.jit.is_scripting() and isinstance(edge_index, EdgeIndex):
+  File "/home2/bhuvan.kapur/.local/lib/python3.10/site-packages/torch/_jit_internal.py", line 101, in is_scripting
+    def is_scripting() -> bool:
+Exception
+
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

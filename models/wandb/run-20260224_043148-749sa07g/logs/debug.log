@@ -1,0 +1,33 @@
+2026-02-24 04:31:48,598 INFO    Thread-40 (_run_job):1469224 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2026-02-24 04:31:48,598 INFO    Thread-40 (_run_job):1469224 [wandb_setup.py:_flush():80] Configure stats pid to 1469224
+2026-02-24 04:31:48,599 INFO    Thread-40 (_run_job):1469224 [wandb_setup.py:_flush():80] Loading settings from /home2/bhuvan.kapur/.config/wandb/settings
+2026-02-24 04:31:48,599 INFO    Thread-40 (_run_job):1469224 [wandb_setup.py:_flush():80] Loading settings from /home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models/wandb/settings
+2026-02-24 04:31:48,599 INFO    Thread-40 (_run_job):1469224 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2026-02-24 04:31:48,599 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models/wandb/run-20260224_043148-749sa07g/logs/debug.log
+2026-02-24 04:31:48,599 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home2/bhuvan.kapur/blood-brain-barrier-permeability-prediction/models/wandb/run-20260224_043148-749sa07g/logs/debug-internal.log
+2026-02-24 04:31:48,600 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f630bc05f90>
+2026-02-24 04:31:48,600 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():830] calling init triggers
+2026-02-24 04:31:48,600 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():835] wandb.init called with sweep_config: {'batch_size': 64, 'dropout': 0.3, 'epochs': 50, 'hidden_dim': 256, 'learning_rate': 0.009083624357760065, 'num_layers': 4, 'readout': 'max', 'use_bond_features': False, 'weight_decay': 0.0001}
+config: {'_wandb': {}}
+2026-02-24 04:31:48,600 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():871] starting backend
+2026-02-24 04:31:48,805 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():874] sending inform_init request
+2026-02-24 04:31:48,807 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():882] backend started and connected
+2026-02-24 04:31:48,809 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_config_callback():1380] config_cb None None {'batch_size': 64, 'dropout': 0.3, 'epochs': 50, 'hidden_dim': 256, 'learning_rate': 0.009083624357760065, 'num_layers': 4, 'readout': 'max', 'use_bond_features': False, 'weight_decay': 0.0001}
+2026-02-24 04:31:48,817 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2026-02-24 04:31:48,821 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():953] updated telemetry
+2026-02-24 04:31:48,835 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2026-02-24 04:31:55,136 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():1029] starting run threads in backend
+2026-02-24 04:31:55,545 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_console_start():2494] atexit reg
+2026-02-24 04:31:55,545 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2026-02-24 04:31:55,545 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2026-02-24 04:31:55,545 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_redirect():2434] Redirects installed.
+2026-02-24 04:31:55,546 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:init():1075] run started, returning control to user process
+2026-02-24 04:32:55,334 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_finish():2260] finishing run bhuvan-kapur1-iiith/bbb-gcn-1/749sa07g
+2026-02-24 04:32:55,337 INFO    Thread-40 (_run_job):1469224 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2026-02-24 04:32:55,337 INFO    Thread-40 (_run_job):1469224 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2026-02-24 04:32:55,338 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2026-02-24 04:32:55,338 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_restore():2441] restore
+2026-02-24 04:32:55,338 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_restore():2447] restore done
+2026-02-24 04:32:57,576 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_footer_history_summary_info():3895] rendering history
+2026-02-24 04:32:57,577 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_footer_history_summary_info():3927] rendering summary
+2026-02-24 04:32:57,579 INFO    Thread-40 (_run_job):1469224 [wandb_run.py:_footer_sync_info():3856] logging synced files

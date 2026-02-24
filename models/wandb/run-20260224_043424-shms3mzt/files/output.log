@@ -1,0 +1,3 @@
+Converted 7805 molecules; skipped 2 invalid SMILES.
+Time taken: 51.00 seconds
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.
